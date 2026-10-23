@@ -1,7 +1,7 @@
 {
  "asset": "NEAR",
  "asset_name": "NEAR Protocol",
- "updated_utc": "2026-10-23T00:14:01+00:00",
+ "updated_utc": "2026-10-23T14:52:52+00:00",
  "method": "flow = change in shares outstanding x NAV, per fund, per trading day; NAV recomputed as net assets / shares outstanding on a single as-of date",
  "funds": [
   {
@@ -529,6 +529,35 @@
    "net_assets": 91381771.43,
    "estimated": false,
    "cum_flow": 86400219.67
+  },
+  {
+   "date": "2026-10-22",
+   "by_fund": {
+    "NRR": {
+     "date": "2026-10-22",
+     "shares": 3320000,
+     "net_assets": 85169602.57,
+     "nav": 25.653495,
+     "coins": 17353760.7927488,
+     "coins_as_of": "2026-10-22",
+     "market_price": 25.74,
+     "price_as_of": "2026-10-22",
+     "premium_discount": 25.74,
+     "staked_pct": 0.9939694878862187,
+     "staking_gross": 0.04936153625395145,
+     "staking_net": 0.03307222929014746,
+     "wallet_count": 66,
+     "wallet_near": 17330037.6933,
+     "onchain_pool_staked": 17278743.202112954,
+     "estimated": false,
+     "captured_utc": "2026-10-23T14:52:49+00:00",
+     "flow": 513069.9
+    }
+   },
+   "flow": 513069.9,
+   "net_assets": 85169602.57,
+   "estimated": false,
+   "cum_flow": 86913289.57
   }
  ],
  "onchain": [
@@ -702,9 +731,9 @@
   },
   {
    "date": "2026-10-23",
-   "staked_near": 17276365.401916,
-   "liquid_near": -50823.730835,
-   "total_near": 17225541.67108,
+   "staked_near": 17278743.202113,
+   "liquid_near": 51294.491194,
+   "total_near": 17330037.693307,
    "near_usd": null,
    "source": "fund page + live pool read"
   }
